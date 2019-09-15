@@ -1,0 +1,11 @@
+.still a {
+    font-size: 13px;
+    color: white;   
+    float: left;
+    display: block;
+    padding: 4px 12px;  
+    margin: 0px 4px;    
+}
+.still i {
+    font-size: 21px;
+}

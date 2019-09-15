@@ -1,0 +1,2777 @@
+{
+    "heroes":[
+    {
+        "id": 0,
+        "name": "Abaddon",
+        "primary": "Strength",
+        "spellInfoQ": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.",
+        "spellInfoW": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.",
+        "spellInfoE": "Abaddon strikes an enemy, slowing the target's movement speed. If the target gets hit 4 times, they become affected by a chilling curse causing them to be silenced and slowed, and all attacks against them gain an attack speed boost.",
+        "spellInfoR": "When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.",
+        "introduction": "Unlike the other scions of his house, Abaddon drank deeper than any from the prophetic vapors that flowed from the Font of Avernus. Now a being of unnatural powers, Abaddon releases deathly Mist Coils to damage adversaries and heal allies. The black mist swirls around his compatriots, forming an Aphotic Shield that absorbs attacks before bursting in a wide radius. But the Font's greatest gift is revealed only in the desperation of battle. Bestowed with Borrowed Time, Abaddon charges the enemy ranks, riding down foes with his cursed blade, his health returning with each welcoming blow. For all that was meant to kill did nothing but make the Lord of Avernus even more formidable."
+    }, {
+        "id": 1,
+        "name": "Alchemist",
+        "primary": "Strength",
+        "spellInfoQ": "Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced.",
+        "spellInfoW": "Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown.",
+        "spellInfoE": "Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 40 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield more gold.",
+        "spellInfoR": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.",
+        "introduction": "Having broken out of prison with his ogre accomplice, Razzil Darkbrew embarks on the search for new materials to use in his transmutations. Learned in alchemy, Razzil is able to extract extra gold from creeps, and create fields of toxic sludge with Acid Spray. The Alchemist brews, atop the shoulders of his companion, an increasingly Unstable Concoction that is ideally thrown before it explodes. In a pinch, Razzil slips his partner an unknown potion, inducing a Chemical Rage in the ogre's body. Symptoms include unnatural attack speed, rapid health regeneration, and a pleasant purple hue."
+    }, {
+        "id": 2,
+        "name": "Axe",
+        "primary": "Strength",
+        "spellInfoQ": "Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration.",
+        "spellInfoW": "Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger, half speed from creeps.",
+        "spellInfoE": "When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies.",
+        "spellInfoR": "Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed.",
+        "introduction": "One by one the soldiers of the Red Mist fell, some in battle, others to Moghul Khan's ambitions, until the self-declared general found himself a commander without troops. No matter, Axe thought. For a one-man army is the best army of all. Leaping into battle, Moghul Khan compels nearby foes to attack him with a taunting Berserker's Call. Absorbing blows from every direction, Axe reacts by swinging his axe full circle in a Counter Helix, easily dispatching the swarm he had gathered. But alas, not all stay long enough to meet their end. The few limping away from Moghul Khan feel an inexplicable Battle Hunger, a hunger that is never sated before Axe sends them to an early grave with Culling Blade."
+        }, {
+        "id": 3,
+        "name": "Anti Mage",
+        "primary": "Agility",
+        "spellInfoQ": "Burns an opponent's mana on each attack. Mana Break deals 50% of the mana burned as damage to the target.",
+        "spellInfoW": "Short distance teleportation that allows Anti-Mage to move in and out of combat.",
+        "spellInfoE": "Passively grants you magic resistance. Can be activated to create an anti-magic shell around you that sends any targeted spells back towards enemies instead of affecting you.",
+        "spellInfoR": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned.",
+        "introduction" : "Among the ascetic monks of Turstarkuri, only a young acolyte was fortunate enough to escape the fallen legion's assault on the monastery. Now, vowing to eliminate not only the magic of the Dead God, the Anti-Mage returns to eradicate magic altogether. Protected by a Counterspell shield, he shrugs off sorcery that would end lesser heroes. No wizard's trick is enough to contain or elude the Anti-Mage, as he Blinks out of traps and pursues targets to the ends of the world. With each swing of his unorthodox blades, the Anti-Mage erodes his opponent's mana, setting up the depleted caster to perish in a crushing Mana Void."
+    }, {
+        "id": 4,
+        "name": "Arc Warden",
+        "primary": "Agility",
+        "spellInfoQ": "Infuses a lone enemy unit with swirling, volatile energy, slowing its movement speed and dealing damage over time. The effect is muted if another enemy unit is near the target.",
+        "spellInfoW": "Generates a circular distortion field of magnetic energy that protects allied heroes and buildings within it by evading attacks coming from outside the field.",
+        "spellInfoE": "Summons a Spark Wraith that slowly materializes and patrols a targeted area until an enemy comes within its range. Once a target has been found the wraith fuses with them, dealing magical damage and slowing the unit.",
+        "spellInfoR": "Briefly refocusing its fractured elements into a single form, the Arc Warden is able to create a perfect electrical duplication of itself. The duplicate can use all of Arc Warden's current items and spells, except consumables and items that drop on death. The duplicate has separate item and ability cooldowns.",
+        "introduction": "As old as the Ancients themselves, Zet endeavors to end the disharmony among the warring factions through whatever means necessary. Solitary foes are thrown into a volatile state of Flux, ripping away at their health over time. Allies find shelter under its Magnetic Field, evading and attacking with greater efficiency. Zet summons Spark Wraiths, fragments of its former self that circle in place, and seek out nearby foes. Is there one Arc Warden, or two? Armed with the original's items and abilities, Zet's Tempest Double duplicates each spell and every attack, bringing twice the chaos to any fight."
+        }, {
+        "id": 5,
+        "name": "Bloodseeker",
+        "primary": "Agility",
+        "spellInfoQ": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer. If you do not get the last hit, but are within 300 AoE of the dying hero, you will take 50% of the heal.",
+        "spellInfoW": "Bloodseeker baptizes an area in sacred blood. After 2.9 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced. ",
+        "spellInfoE": "Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack speed whenever an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero.",
+        "spellInfoR": "Causes an enemy unit's skin to rupture. If the unit moves, it takes damage based on the distance moved. The damage is dealt through spell immunity.",
+        "introduction":"The Flayed Twins' obscene demand for blood could only be met through constant carnage, a task for which Strygwyr was more than suited. Driven by insatiable Thirst, the Bloodseeker senses injured foes from leagues away, and chases them down with eager speed. Through sacred markings on his gear, the blood of the freshly sacrificed flows directly to the Flayed Ones, leaving just enough to mend his wounds and fuel his Bloodrage. Strygwyr paints the land with a crimson ring, silencing foes caught in this Blood Rite. Those who run only hasten their own demise. The Bloodseeker Ruptures every artery, causing his victim to hemorrhage with each step. By blood loss or by Strygwyr's tribal blades, death is but a foregone conclusion."
+    }, {
+        "id": 6,
+        "name": "Ancient Apparation",
+        "primary": "Intelligence",
+        "spellInfoQ": "Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point. If the enemy unit doesn't move out of the given range, it will be stunned and frozen in place after 4 seconds. ",
+        "spellInfoW": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range.",
+        "spellInfoE": "Enhances your attacks with heavy magic damage and slow. Grants increased range for this attack. ",
+        "spellInfoR": "Launches a tracer towards any location of the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touched the icy ball of hail as it travels, are frostbitten, taking damage and prevented from regenerating or healing. If a frostbitten unit's health drops below a certain percentage, they will instantly shatter.",
+        "introduction": "Projected from the cold, infinite void, the Ancient Apparition known as Kaldr is but a faint image of his true self. Nevertheless, his Chilling Touch is enough to crack the sturdiest of armors. Caught in an Ice Vortex, heroes afflicted with Cold Feet seldom go far. A frozen sphere flies across the sky, expanding at its destination. Within seconds, an Ice Blast strikes the marked area. Flash frozen, enemies have no choice but to retreat before their brittle bodies shatter to pieces.."
+    }, {
+        "id": 7,
+        "name": "Bane",
+        "primary": "Intelligence",
+        "spellInfoQ": "Launches a tracer towards any location of the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touched the icy ball of hail as it travels, are frostbitten, taking damage and prevented from regenerating or healing. If a frostbitten unit's health drops below a certain percentage, they will instantly shatter. ",
+        "spellInfoW": "Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.",
+        "spellInfoE": "Puts the target enemy or friendly Hero to sleep. Sleeping units are awakened when attacked, but the Nightmare passes to the attacking unit. Bane can attack nightmared targets freely. ",
+        "spellInfoR": "Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every 0.5 second based on the unit's maximum mana. ",
+        "introduction": "Formed from the ichor of Nyctasha, Atropos is the vaporous embodiment of pure fear. Sheer terror Enfeebles his enemies, diminishing their attacks. The Bane Elemental puts heroes to sleep, sending them into a restless Nightmare as he feeds on their vital energies through Brain Sap. Some will never wake. Caught in the Fiend's Grip, Bane's victims can only swing at imagined phantoms as fear chokes the life from their bodies."
+    }, {
+        "id": 8,
+        "name": "Batrider",
+        "primary": "Intelligence",
+        "spellInfoQ": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area. Additional casts of Sticky Napalm continue to increase damage, up to 10 stacks. The extra damage is halved against creeps. ",
+        "spellInfoW": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area.",
+        "spellInfoE": "Batrider takes to the skies, laying down a trail of flames from the air. The fire damages any enemies it touches, and destroys trees below Batrider. While flying, Batrider gains unobstructed movement and vision.",
+        "spellInfoR": "Lassoes an enemy and drags them in Batrider's wake. Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities. Teleporting or blinking will break the lasso. ",
+        "introduction": "While most would find being kidnapped by a morde-bat to be a terrifying ordeal, one particular young man found the incident exhilarating. Seeking to relive the thrill of flight, he entered the Yama Raskav Jungle, and came out high above the canopy as the Batrider. Atop his leathery mount, he drenches targets below in Sticky Napalm, increasing their flammability before setting the land ablaze with Firefly. He hurls an explosive cocktail, knocking foes away with Flamebreak. Want a ride? That can be arranged. The Batrider spots heroes from above, and throws out the Flaming Lasso to string them along for an experience they will not soon forget."
+    }
+],
+    "primaryInfo": {
+        "Strength": "Strength heroes are tough warriors and can withstand more damage than other heroes. These heroes have the greatest natural health and can regenerate quickly, keeping them in the fight and dealing damage. Strength heroes can fit a variety of roles, with many being initiators or heavy disablers, and are almost always melee heroes.",
+        "Agility": "Agility heroes are finessed and dexterous, making them masters of weapons and fighting techniques. These heroes have high attack speed and armor, and focus on using their regular attacks in conjunction with the items they have equipped, but can fall back on their abilities in a pinch. Agility heroes are often played in carry and ganker roles, because of how well they scale and are generally better than other heroes at taking heroes out.",
+        "Intelligence": "Intelligence heroes are masters of spells and abilities. They tend to have larger mana pools and much greater mana regeneration than other heroes. Because of this, they often rely on their abilities to help allies and harm enemies rather than physical attacks, although some of them utilize their magical powers to heavily enhance their attack capabilities. Most intelligence heroes are fragile ranged heroes, though this does not necessarily mean they are easy to kill. As a result, they are often played in support, ganker, and pusher roles, while some are played as carries."
+    },
+    "items": [
+    {
+        "id": 0,
+        "name": "town portal scroll",
+        "information": "After channeling for 3 seconds, teleports you to a target friendly building Double-click to teleport to your team's base fountain",
+        "properties":[],
+        "cooldown": 80,
+        "job": "consumable",
+        "mana": 75,
+        "image": "tpscroll_lg"
+    },
+    {
+        "id": 1,
+        "name": "clarity",
+        "information": "Grants 4.5 mana regeneration to the target for 50 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost.Range: 250 ",
+        "properties":[],
+        "cooldown": 0,
+        "job": "consumable",
+        "mana": 0,
+        "image": "clarity_lg"
+    },
+    {
+        "id": 2,
+        "name": "faerie fire",
+        "information": "Instantly restores 85 health. ",
+        "properties":["+2 Damage"],
+        "cooldown": 5,
+        "job": "consumable",
+        "mana": 0,
+        "image": "faerie_fire_lg"
+    },
+    {
+        "id": 3,
+        "name": "smoke of deceit",
+        "information": "Turns the caster and all allied player-controlled units in a 1200 radius invisible, and grants 15% bonus movement speed for 35 seconds.Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility.Disguise grants invisibility that is immune to True Sight. ",
+        "properties":[],
+        "cooldown": 1,
+        "job": "consumable",
+        "mana": 0,
+        "image":"smoke_of_deceit_lg"
+    },
+    {
+        "id": 4,
+        "name": "observer ward",
+        "information": "Plants an Observer Ward, an invisible watcher that gives ground vision in a 1600 radius to your team. Lasts 6 minutes.Hold Control to give one Observer Ward to an allied hero.Range: 500 ",
+        "properties":[],
+        "cooldown": 1,
+        "job": "consumable",
+        "mana": 0,
+        "image":"ward_observer_lg",
+        "gold": 50
+    },
+    {
+        "id": 5,
+        "name": "sentry ward",
+        "information": "Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a 1000 radius.Lasts 6 minutes.Does not grant ground vision.Hold Control to give one Sentry Ward to an allied hero.Range: 500 ",
+        "properties":[],
+        "cooldown": 1,
+        "job": "consumable",
+        "mana": 0,
+        "image":"ward_sentry_lg",
+        "gold": 75
+    },
+    {
+        "id": 6,
+        "name": "enchanted mango",
+        "information": "Instantly restores 125 mana.Range: 400 ",
+        "properties":["+0.6 HP Regeneration"],
+        "cooldown": 0,
+        "job": "consumable",
+        "mana": 0,
+        "image": "enchanted_mango_lg",
+        "gold": 70
+    },
+    {
+        "id": 7,
+        "name": "healing salve",
+        "information": "Grants 50 health regeneration to the target for 8 seconds.If the unit is attacked by an enemy hero or Roshan, the effect is lost.Range: 250 ",
+        "properties":[],
+        "cooldown": 0,
+        "job": "consumable",
+        "mana": 0,
+        "image":"flask_lg",
+        "gold": 110
+    },
+    {
+        "id": 8,
+        "name": "tango",
+        "information": "Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming a ward or Ironwood Tree doubles the heal amount. Comes with 3 charges. Can be used on an allied hero to give them one Tango. Range: 165 Ward Range: 450 ",
+        "properties":[],
+        "cooldown": 0,
+        "job": "consumable",
+        "mana": 0,
+        "image": "tango_lg",
+        "gold": 90
+    },
+    {
+        "id": 9,
+        "name": "tome of knowledge",
+        "information": "Grants you 700 experience plus 135 per tome consumed by your team.",
+        "properties":[],
+        "cooldown": 300,
+        "job": "consumable",
+        "mana": 0,
+        "image": "tome_of_knowledge_lg",
+        "gold": 150
+    },
+    {
+        "id": 10,
+        "name": "dust of apperance",
+        "information": "Reveals and slows invisible heroes by 20% in a 1050 radius around the caster for 12 seconds. ",
+        "properties":[],
+        "cooldown": 30,
+        "job": "consumable",
+        "mana": 0,
+        "image": "dust_lg",
+        "gold": 180
+    },
+    {
+        "id": 11,
+        "name": "animal courier",
+        "information": "Deploys a creature to carry items to and from your team's base. ",
+        "properties":[],
+        "cooldown": 0,
+        "job": "consumable",
+        "mana": 0,
+        "image": "courier_lg",
+        "gold": 50
+    },
+    {
+        "id": 12,
+        "name": "bottle",
+        "information": "Consumes a charge to restore 125 health and 75 mana over 2.5 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.The Bottle automatically refills at the fountain.Hold Control to use on an allied hero.Range: 350",
+        "properties":[],
+        "cooldown": 0,
+        "job": "consumable",
+        "mana": 0,
+        "image": "bottle_lg",
+        "gold": 650
+    },   
+    {
+        "id": 13,
+        "name": "iron branch",
+        "information": "Targets the ground to plant a happy little tree that lasts for 20 seconds.Range: 400 ",
+        "properties":["+1 All Attributes"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "branches_lg",
+        "gold": 50
+    },   
+    {
+        "id": 14,
+        "name": "gauntlets of strength",
+        "information": "",
+        "properties":["+3 Strength"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "gauntlets_lg",
+        "gold": 135
+    },   
+    {
+        "id": 15,
+        "name": "slippers of agility",
+        "information": "",
+        "properties":["+3 Agility"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "slippers_lg",
+        "gold": 135
+    },   
+    {
+        "id": 16,
+        "name": "mantle of intelligence",
+        "information": "",
+        "properties":["+3 Intelligence"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "mantle_lg",
+        "gold": 135
+    },   
+    {
+        "id": 17,
+        "name": "circlet",
+        "information": "",
+        "properties":["+2 All Attributes"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "circlet_lg",
+        "gold": 165
+    },   
+    {
+        "id": 18,
+        "name": "belt of strength",
+        "information": "",
+        "properties":["+6 Strength"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "belt_of_strength_lg",
+        "gold": 450
+    },   
+    {
+        "id": 19,
+        "name": "band of elvenskin",
+        "information": "",
+        "properties":["+6 Agility"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "boots_of_elves_lg",
+        "gold": 450
+    },   
+    {
+        "id": 20,
+        "name": "robe of the magi",
+        "information": "",
+        "properties":["+6 Intelligence"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "robe_lg",
+        "gold": 450
+    },   
+    {
+        "id": 21,
+        "name": "crown",
+        "information": "",
+        "properties":["4 All Attributes"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "crown_lg",
+        "gold": 450
+    },   
+    {
+        "id": 22,
+        "name": "ogre axe",
+        "information": "",
+        "properties":["+10 Strength"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "ogre_axe_lg",
+        "gold": 1000
+    },   
+    {
+        "id": 23,
+        "name": "blade of alacrity",
+        "information": "",
+        "properties":["+10 Agility"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "blade_of_alacrity_lg",
+        "gold": 1000
+    },   
+    {
+        "id": 24,
+        "name": "staff of wizardry",
+        "information": "",
+        "properties":["+10 Intelligence"],
+        "cooldown": 0,
+        "job": "attributes",
+        "mana": 0,
+        "image": "staff_of_wizardry_lg",
+        "gold": 1000
+    },   
+    {
+        "id": 25,
+        "name": "ring of protection",
+        "information": "",
+        "properties":["+2 armor"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "ring_of_protection_lg",
+        "gold": 175
+    },   
+   
+    {
+        "id": 26,
+        "name": "stout shield",
+        "information": "Grants a 50% chance to block 20 damage from incoming attacks on melee heroes, and 9 damage on ranged. ",
+        "passive": "Damage Block: Grants a 50% chance to block 20 damage from incoming attacks on melee heroes, and 9 damage on ranged.",
+        "properties":[],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "stout_shield_lg",
+        "gold": 250
+    },   
+   
+    {
+        "id": 27,
+        "name": "quellling blade",
+        "information": "Destroy a target tree or ward. Chop cast range is increased when targeting wards.Tree Range: 350 Ward Range: 450",
+        "passive": "Increases attack damage against non-hero units by 24 for melee heroes, and 7 for ranged. ",
+        "properties":[],
+        "cooldown": 4,
+        "job": "armanents",
+        "mana": 0,
+        "image": "quelling_blade_lg",
+        "gold": 200
+    },   
+   
+    {
+        "id": 28,
+        "name": "infused raindrops",
+        "information": "",
+        "passive":"Consumes a charge to block 120 magic damage from damage instances over 50 damage.Comes with 5 charges. When the charges are gone, the item disappears. ",
+        "properties":["+0.75 Mana Regeneration"],
+        "cooldown": 7,
+        "job": "armanents",
+        "mana": 0,
+        "image": "infused_raindrop_lg",
+        "gold": 225
+    },   
+   
+    {
+        "id": 29,
+        "name": "orb of venom",
+        "information": "",
+        "passive":"Poisons the target, dealing 5 magical damage per second and slowing movement by 12% if the equipped hero is melee, or 3 magical damage per second and slowing movement by 4% if they are ranged. Lasts for 3 seconds. ",
+        "properties":[],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "orb_of_venom_lg",
+        "gold": 275
+    },   
+   
+    {
+        "id": 30,
+        "name": "blight stone",
+        "information": "",
+        "passive": " LESSER CORRUPTION : Your attacks reduce the target's armor by 2 for 8 seconds." ,
+        "properties":[],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "blight_stone_lg",
+        "gold": 300
+        
+    },
+    {
+        "id": 31,
+        "name": "blades of attack",
+        "information": "",
+        "passive": "" ,
+        "properties":["+9 Damage"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "blades_of_attack_lg",
+        "gold": 430
+    },
+    {
+        "id": 32,
+        "name": "chainmail",
+        "information": "",
+        "passive": "" ,
+        "properties":["+4 Armor"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "chainmail_lg",
+        "gold": 550
+    },
+    {
+        "id": 33,
+        "name": "quarterstaff",
+        "information": "",
+        "passive": "" ,
+        "properties":["+10 Damage","+10 Attack Speed"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "quarterstaff_lg",
+        "gold": 875
+    },
+    {
+        "id": 34,
+        "name": "helm of iron will",
+        "information": "",
+        "passive": "" ,
+        "properties":["+5 Armor","+3.5 HP Regeneration"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "helm_of_iron_will_lg",
+        "gold": 900
+    },
+    {
+        "id": 35,
+        "name": "javelin",
+        "information": "",
+        "passive": "Grants each attack a 25% chance to pierce through evasion and deal 100 bonus magical damage." ,
+        "properties":[],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "javelin_lg",
+        "gold": 1100
+    },
+    {
+        "id": 36,
+        "name": "broadsword",
+        "information": "",
+        "passive": "" ,
+        "properties":["+18 Damage"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "broadsword_lg",
+        "gold": 1200
+    },
+    {
+        "id": 37,
+        "name": "claymore",
+        "information": "",
+        "passive": "" ,
+        "properties":["+21 Damage"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "claymore_lg",
+        "gold": 1400
+    },
+    {
+        "id": 38,
+        "name": "mithril hammer",
+        "information": "",
+        "passive": "" ,
+        "properties":["+24 Damage"],
+        "cooldown": 0,
+        "job": "armanents",
+        "mana": 0,
+        "image": "mithril_hammer_lg",
+        "gold": 1600
+    },
+    {
+        "id": 0,
+        "name": "magic stick",
+        "information": "Instantly restores 15 health and mana per charge stored.Max 10 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability. ",
+        "passive": "" ,
+        "properties":[],
+        "cooldown": 13,
+        "job": "arcane",
+        "mana": 0,
+        "image": "magic_stick_lg",
+        "gold": 200
+    },
+    {
+        "id": 39,
+        "name": "wind lace",
+        "information": "Bonuses from multiple Wind Laces do not stack. ",
+        "passive": "" ,
+        "properties":["+20 Movement Speed"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "wind_lace_lg",
+        "gold": 250
+    },
+    {
+        "id": 40,
+        "name": "ring of regen",
+        "information": "",
+        "passive": "" ,
+        "properties":["+2 HP Regeneration"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "ring_of_regen_lg",
+        "gold": 300
+    },
+    {
+        "id": 41,
+        "name": "sage's mask",
+        "information": "",
+        "passive": "" ,
+        "properties":["+0.75 Mana Regeneration"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "sobi_mask_lg",
+        "gold": 325
+    },
+    {
+        "id": 42,
+        "name": "boots of speed",
+        "information": "Movement speed bonuses from multiple pairs of boots do not stack. ",
+        "passive": "" ,
+        "properties":["15% Movement Speed"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "boots_lg",
+        "gold":500
+    },
+    {
+        "id": 43,
+        "name": "gloves of haste",
+        "information": "",
+        "passive": "" ,
+        "properties":["+20 Attack Speed"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "gloves_lg",
+        "gold": 500
+    }, 
+    {
+        "id": 44,
+        "name": "cloak",
+        "information": "",
+        "passive": "Stacks multiplicatively with other sources of spell resistance" ,
+        "properties":["15% Magic Resistance"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "cloak_lg",
+        "gold": 550
+    }, 
+    {
+        "id": 45,
+        "name": "ring of tarrasque",
+        "information": "",
+        "passive": "" ,
+        "properties":["+150 Health","+3.75 HP Regeneration"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "ring_of_tarrasque_lg",
+        "gold": 700
+    }, 
+    {
+        "id": 46,
+        "name": "ring of health",
+        "information": "",
+        "passive": "" ,
+        "properties":["+6 HP Regeneration"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "ring_of_health_lg",
+        "gold": 850
+    }, 
+    {
+        "id": 47,
+        "name": "void stone",
+        "information": "",
+        "passive": "" ,
+        "properties":["+1.75 Mana Regeneration"],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "void_stone_lg",
+        "gold": 850
+    }, 
+    {
+        "id": 48,
+        "name": "gem of true sight",
+        "information": "",
+        "passive": "Grants the ability to see invisible units and wards to any allied vision within 900 range of its carrier. Dropped on death, and cannot be destroyed." ,
+        "properties":[],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "gem_lg",
+        "gold": 900
+    }, 
+    {
+        "id": 49,
+        "name": "morbid mask",
+        "information": "",
+        "passive": "Lifesteal Heals the attacker for 15% of attack damage dealt. " ,
+        "properties":[],
+        "cooldown": 0,
+        "job": "arcane",
+        "mana": 0,
+        "image": "lifesteal_lg",
+        "gold": 900
+    }, 
+    {
+        "id": 50,
+        "name": "shadow amulet",
+        "information": "Grants invisibility to you or a target allied hero as long as the target unit remains still.Has a 1.25 second fade time, and breaks instantly upon moving.There is no cooldown when using this item on yourself.Range: 600 ",
+        "properties":["+20 Attack Speed"],
+        "cooldown": 7,
+        "job": "arcane",
+        "mana": 0,
+        "image": "shadow_amulet_lg",
+        "gold": 1400
+    }, 
+    {
+        "id": 51,
+        "name": "ghost scepter",
+        "information": "You enter ghost form for 4 seconds, becoming immune to physical damage, but are unable to attack and 40% more vulnerable to magic damag",
+        "passive": " " ,
+        "properties":["+5 All Attributes"],
+        "cooldown": 20,
+        "job": "arcane",
+        "mana": 0,
+        "image": "ghost_lg",
+        "gold": 1500
+    }, 
+    {
+        "id": 52,
+        "name": "blink dagger",
+        "information": "Teleport to a target point up to 1200 units away.Blink Dagger cannot be used for 3 seconds after taking damage from an enemy hero or Roshan. ",
+        "passive": " " ,
+        "properties":[],
+        "cooldown": 15,
+        "job": "",
+        "mana": 0,
+        "image": "blink_lg",
+        "gold": 2250
+    },
+    {
+        "id": 53,
+        "name": "magic wand",
+        "information": "Instantly restores 15 health and mana per charge stored.Max 20 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability. ",
+        "passive": "Gains Charges for spells cast by visible enemies in 1200 range.Certain abilities and item abilities will not add charges" ,
+        "properties":[],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "magic_wand_lg"
+    },{
+        "id": 54,
+        "name": "null talisman",
+        "information": "",
+        "passive": " " ,
+        "properties":["+3 Strength","+3 Agility","+6 Intelligence","+Spell Amplification 3%"],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "null_talisman_lg",
+        "gold": 515,
+        "recipe": ["recipe","circlet","mantle of intelligence"]
+    },
+    {
+        "id": 55,
+        "name": "wraith band",
+        "information": "",
+        "passive": " " ,
+        "properties":["+3 Strength","+6 Agility","+3 Intelligence","+5 Attack Speed"],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "wraith_band_lg",
+        "gold": 515,
+        "recipe": ["recipe","circlet","slippers of agility"]
+    },{
+        "id": 56,
+        "name": "bracer",
+        "information": "",
+        "passive": " " ,
+        "properties":["+6 Stength","+3 Agility","+3 Intelligence","5% Magic Resistance"],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "bracer_lg",
+        "gold": 515 ,
+        "recipe": ["recipe","circlet","gauntlets of strength"]
+    },
+    {
+        "id": 57,
+        "name": "soul ring",
+        "information": "Consume 170 health to temporarily gain 150 mana. Lasts 10 seconds.If the mana gained cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool. ",
+        "passive": "" ,
+        "properties":["+6 Stength","+2.5 HP Regeneration"],
+        "cooldown": 25,
+        "job": "common",
+        "mana": 0,
+        "image": "soul_ring_lg",
+        "gold": 770,
+        "recipe": ["recipe","ring of regeneration","gauntlets of strength","gauntlets of strength"]
+    },{
+        "id": 58,
+        "name": "phase boots",
+        "information": "Gives 22% increased movement speed on melee heroes, and 10% on ranged heroes, and lets you move through units and turn more quickly for 3 seconds.Movement speed bonuses from multiple pairs of boots do not stack. ",
+        "passive": " " ,
+        "properties":["15% Movement Speed","+Damage(Melee) 18","+Damage(Range) 12","5 Armor"],
+        "cooldown": 8,
+        "job": "common",
+        "mana": 0,
+        "image": "phase_boots_lg",
+        "gold": 1480,
+        "recipe": ["boots of speed","chainmail","blades of attack"]
+    }
+    ],
+    "gameInfo" : [
+    {
+        "result":{
+        "players":[
+        {
+        "account_id":4294967295,
+        "player_slot":0,
+        "hero_id":73,
+        "item_0":44,
+        "item_1":39,
+        "item_2":16,
+        "item_3":16,
+        "item_4":182,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":3,
+        "last_hits":0,
+        "denies":0,
+        "gold_per_min":282,
+        "xp_per_min":85,
+        "level":1,
+        "hero_damage":145,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":550,
+        "scaled_hero_damage":123,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5368,
+        "time":104,
+        "level":1
+        }
+        ]
+    
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":1,
+        "hero_id":104,
+        "item_0":182,
+        "item_1":11,
+        "item_2":44,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":0,
+        "denies":0,
+        "gold_per_min":286,
+        "xp_per_min":0,
+        "level":1,
+        "hero_damage":0,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":490,
+        "scaled_hero_damage":0,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5597,
+        "time":154,
+        "level":1
+        }
+        ]
+    
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":2,
+        "hero_id":95,
+        "item_0":11,
+        "item_1":182,
+        "item_2":14,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":2,
+        "denies":1,
+        "gold_per_min":399,
+        "xp_per_min":360,
+        "level":2,
+        "hero_damage":0,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":535,
+        "scaled_hero_damage":0,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5508,
+        "time":115,
+        "level":1
+        },
+        {
+        "ability":5509,
+        "time":203,
+        "level":2
+        }
+        ]
+    
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":3,
+        "hero_id":99,
+        "item_0":182,
+        "item_1":44,
+        "item_2":56,
+        "item_3":216,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":1,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":3,
+        "denies":0,
+        "gold_per_min":2413,
+        "xp_per_min":386,
+        "level":2,
+        "hero_damage":832,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":2421,
+        "gold_spent":1390,
+        "scaled_hero_damage":1349,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5549,
+        "time":119,
+        "level":1
+        },
+        {
+        "ability":5550,
+        "time":223,
+        "level":2
+        }
+        ]
+    
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":4,
+        "hero_id":5,
+        "item_0":44,
+        "item_1":38,
+        "item_2":244,
+        "item_3":34,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":1,
+        "leaver_status":1,
+        "last_hits":2,
+        "denies":0,
+        "gold_per_min":849,
+        "xp_per_min":342,
+        "level":2,
+        "hero_damage":149,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":590,
+        "scaled_hero_damage":206,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5127,
+        "time":143,
+        "level":1
+        },
+        {
+        "ability":5128,
+        "time":219,
+        "level":2
+        }
+        ]
+    
+        },
+        {
+        "account_id":153544452,
+        "player_slot":128,
+        "hero_id":18,
+        "item_0":216,
+        "item_1":11,
+        "item_2":44,
+        "item_3":39,
+        "item_4":182,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":1,
+        "denies":1,
+        "gold_per_min":476,
+        "xp_per_min":128,
+        "level":1,
+        "hero_damage":537,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":740,
+        "scaled_hero_damage":818,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5094,
+        "time":121,
+        "level":1
+        }
+        ]
+    
+        },
+        {
+        "account_id":198374379,
+        "player_slot":129,
+        "hero_id":9,
+        "item_0":244,
+        "item_1":44,
+        "item_2":0,
+        "item_3":237,
+        "item_4":216,
+        "item_5":38,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":1,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":0,
+        "denies":0,
+        "gold_per_min":342,
+        "xp_per_min":128,
+        "level":1,
+        "hero_damage":113,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":600,
+        "scaled_hero_damage":103,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5048,
+        "time":152,
+        "level":1
+        }
+        ]
+    
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":130,
+        "hero_id":74,
+        "item_0":0,
+        "item_1":39,
+        "item_2":16,
+        "item_3":44,
+        "item_4":16,
+        "item_5":77,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":2,
+        "denies":2,
+        "gold_per_min":1782,
+        "xp_per_min":565,
+        "level":3,
+        "hero_damage":193,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":2109,
+        "gold_spent":865,
+        "scaled_hero_damage":147,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5372,
+        "time":104,
+        "level":1
+        },
+        {
+        "ability":5370,
+        "time":220,
+        "level":2
+        }
+        ]
+    
+        },
+        {
+        "account_id":202972748,
+        "player_slot":131,
+        "hero_id":7,
+        "item_0":44,
+        "item_1":16,
+        "item_2":16,
+        "item_3":182,
+        "item_4":216,
+        "item_5":11,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":3,
+        "denies":0,
+        "gold_per_min":942,
+        "xp_per_min":351,
+        "level":2,
+        "hero_damage":0,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":750,
+        "scaled_hero_damage":0,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5024,
+        "time":188,
+        "level":1
+        },
+        {
+        "ability":5025,
+        "time":217,
+        "level":2
+        }
+        ]
+    
+        },
+        {
+        "account_id":1014365726,
+        "player_slot":132,
+        "hero_id":86,
+        "item_0":44,
+        "item_1":38,
+        "item_2":77,
+        "item_3":20,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":2,
+        "denies":1,
+        "gold_per_min":656,
+        "xp_per_min":180,
+        "level":2,
+        "hero_damage":106,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":3,
+        "gold_spent":820,
+        "scaled_hero_damage":77,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5448,
+        "time":138,
+        "level":1
+        }
+        ]
+    
+        }
+        ]
+        ,
+        "radiant_win":true,
+        "duration":79,
+        "pre_game_duration":60,
+        "start_time":1567449048,
+        "match_id":5002839696,
+        "match_seq_num":4196205846,
+        "tower_status_radiant":2047,
+        "tower_status_dire":2047,
+        "barracks_status_radiant":63,
+        "barracks_status_dire":63,
+        "cluster":188,
+        "first_blood_time":10,
+        "lobby_type":0,
+        "human_players":10,
+        "leagueid":0,
+        "positive_votes":0,
+        "negative_votes":0,
+        "game_mode":23,
+        "flags":0,
+        "engine":1,
+        "radiant_score":1,
+        "dire_score":0,
+        "picks_bans":[
+        {
+        "is_pick":false,
+        "hero_id":32,
+        "team":0,
+        "order":0
+        },
+        {
+        "is_pick":false,
+        "hero_id":17,
+        "team":0,
+        "order":1
+        },
+        {
+        "is_pick":false,
+        "hero_id":37,
+        "team":0,
+        "order":2
+        },
+        {
+        "is_pick":false,
+        "hero_id":112,
+        "team":0,
+        "order":3
+        },
+        {
+        "is_pick":false,
+        "hero_id":101,
+        "team":0,
+        "order":4
+        }
+        ]
+    
+        }
+    },{
+        "result":{
+        "players":[
+        {
+        "account_id":138632892,
+        "player_slot":0,
+        "hero_id":78,
+        "item_0":50,
+        "item_1":11,
+        "item_2":182,
+        "item_3":73,
+        "item_4":73,
+        "item_5":181,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":4,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":28,
+        "denies":5,
+        "gold_per_min":524,
+        "xp_per_min":610,
+        "level":10,
+        "hero_damage":1582,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":2,
+        "gold_spent":3990,
+        "scaled_hero_damage":1166,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5402,
+        "time":163,
+        "level":1
+        },
+        {
+        "ability":7310,
+        "time":211,
+        "level":2
+        },
+        {
+        "ability":5400,
+        "time":280,
+        "level":3
+        },
+        {
+        "ability":5400,
+        "time":356,
+        "level":4
+        },
+        {
+        "ability":5400,
+        "time":437,
+        "level":5
+        },
+        {
+        "ability":5403,
+        "time":480,
+        "level":6
+        },
+        {
+        "ability":5400,
+        "time":524,
+        "level":7
+        },
+        {
+        "ability":7310,
+        "time":560,
+        "level":8
+        },
+        {
+        "ability":7310,
+        "time":638,
+        "level":9
+        },
+        {
+        "ability":5959,
+        "time":691,
+        "level":10
+        }
+        ]
+    
+        },
+        {
+        "account_id":241979273,
+        "player_slot":1,
+        "hero_id":58,
+        "item_0":181,
+        "item_1":216,
+        "item_2":36,
+        "item_3":39,
+        "item_4":50,
+        "item_5":40,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":3,
+        "assists":1,
+        "leaver_status":1,
+        "last_hits":10,
+        "denies":3,
+        "gold_per_min":650,
+        "xp_per_min":490,
+        "level":8,
+        "hero_damage":6013,
+        "tower_damage":0,
+        "hero_healing":210,
+        "gold":3208,
+        "gold_spent":3340,
+        "scaled_hero_damage":6560,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":282,
+        "ability_upgrades":[
+        {
+        "ability":5267,
+        "time":151,
+        "level":1
+        },
+        {
+        "ability":5269,
+        "time":232,
+        "level":2
+        },
+        {
+        "ability":5267,
+        "time":260,
+        "level":3
+        },
+        {
+        "ability":5268,
+        "time":332,
+        "level":4
+        },
+        {
+        "ability":5267,
+        "time":416,
+        "level":5
+        },
+        {
+        "ability":5270,
+        "time":474,
+        "level":6
+        },
+        {
+        "ability":5267,
+        "time":549,
+        "level":7
+        },
+        {
+        "ability":5269,
+        "time":598,
+        "level":8
+        }
+        ]
+    
+        },
+        {
+        "account_id":137433178,
+        "player_slot":2,
+        "hero_id":49,
+        "item_0":182,
+        "item_1":11,
+        "item_2":178,
+        "item_3":16,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":3,
+        "last_hits":8,
+        "denies":5,
+        "gold_per_min":256,
+        "xp_per_min":253,
+        "level":6,
+        "hero_damage":0,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":2,
+        "gold_spent":1360,
+        "scaled_hero_damage":0,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5228,
+        "time":158,
+        "level":1
+        },
+        {
+        "ability":5226,
+        "time":213,
+        "level":2
+        },
+        {
+        "ability":5228,
+        "time":250,
+        "level":3
+        },
+        {
+        "ability":5226,
+        "time":270,
+        "level":4
+        },
+        {
+        "ability":5228,
+        "time":299,
+        "level":5
+        }
+        ]
+    
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":3,
+        "hero_id":13,
+        "item_0":77,
+        "item_1":29,
+        "item_2":1,
+        "item_3":77,
+        "item_4":38,
+        "item_5":77,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":1,
+        "deaths":4,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":27,
+        "denies":2,
+        "gold_per_min":650,
+        "xp_per_min":547,
+        "level":9,
+        "hero_damage":5239,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":2,
+        "gold_spent":5025,
+        "scaled_hero_damage":5269,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5069,
+        "time":124,
+        "level":1
+        },
+        {
+        "ability":5071,
+        "time":234,
+        "level":2
+        },
+        {
+        "ability":5072,
+        "time":262,
+        "level":3
+        },
+        {
+        "ability":5069,
+        "time":340,
+        "level":4
+        },
+        {
+        "ability":5069,
+        "time":377,
+        "level":5
+        },
+        {
+        "ability":5073,
+        "time":541,
+        "level":6
+        },
+        {
+        "ability":5069,
+        "time":570,
+        "level":7
+        },
+        {
+        "ability":5071,
+        "time":616,
+        "level":8
+        },
+        {
+        "ability":5071,
+        "time":655,
+        "level":9
+        }
+        ]
+    
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":4,
+        "hero_id":45,
+        "item_0":180,
+        "item_1":77,
+        "item_2":59,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":2,
+        "assists":0,
+        "leaver_status":1,
+        "last_hits":24,
+        "denies":1,
+        "gold_per_min":427,
+        "xp_per_min":526,
+        "level":9,
+        "hero_damage":3331,
+        "tower_damage":69,
+        "hero_healing":0,
+        "gold":2,
+        "gold_spent":3640,
+        "scaled_hero_damage":2451,
+        "scaled_tower_damage":26,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5186,
+        "time":113,
+        "level":1
+        },
+        {
+        "ability":5187,
+        "time":210,
+        "level":2
+        },
+        {
+        "ability":5186,
+        "time":280,
+        "level":3
+        },
+        {
+        "ability":5187,
+        "time":351,
+        "level":4
+        },
+        {
+        "ability":5186,
+        "time":401,
+        "level":5
+        },
+        {
+        "ability":5189,
+        "time":440,
+        "level":6
+        },
+        {
+        "ability":5186,
+        "time":493,
+        "level":7
+        },
+        {
+        "ability":5188,
+        "time":586,
+        "level":8
+        },
+        {
+        "ability":5187,
+        "time":612,
+        "level":9
+        }
+        ]
+    
+        },
+        {
+        "account_id":107722499,
+        "player_slot":128,
+        "hero_id":36,
+        "item_0":77,
+        "item_1":180,
+        "item_2":0,
+        "item_3":1,
+        "item_4":34,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":1,
+        "assists":10,
+        "leaver_status":0,
+        "last_hits":13,
+        "denies":2,
+        "gold_per_min":578,
+        "xp_per_min":618,
+        "level":10,
+        "hero_damage":3724,
+        "tower_damage":35,
+        "hero_healing":941,
+        "gold":1103,
+        "gold_spent":4785,
+        "scaled_hero_damage":3836,
+        "scaled_tower_damage":24,
+        "scaled_hero_healing":836,
+        "ability_upgrades":[
+        {
+        "ability":5290,
+        "time":127,
+        "level":1
+        },
+        {
+        "ability":5158,
+        "time":159,
+        "level":2
+        },
+        {
+        "ability":5159,
+        "time":225,
+        "level":3
+        },
+        {
+        "ability":5158,
+        "time":277,
+        "level":4
+        },
+        {
+        "ability":5160,
+        "time":313,
+        "level":5
+        },
+        {
+        "ability":5158,
+        "time":398,
+        "level":6
+        },
+        {
+        "ability":5161,
+        "time":449,
+        "level":7
+        },
+        {
+        "ability":5158,
+        "time":547,
+        "level":8
+        },
+        {
+        "ability":5159,
+        "time":577,
+        "level":9
+        },
+        {
+        "ability":6137,
+        "time":708,
+        "level":10
+        }
+        ]
+    
+        },
+        {
+        "account_id":157272606,
+        "player_slot":129,
+        "hero_id":63,
+        "item_0":44,
+        "item_1":75,
+        "item_2":36,
+        "item_3":63,
+        "item_4":0,
+        "item_5":57,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":3,
+        "deaths":0,
+        "assists":4,
+        "leaver_status":0,
+        "last_hits":15,
+        "denies":2,
+        "gold_per_min":645,
+        "xp_per_min":705,
+        "level":11,
+        "hero_damage":3563,
+        "tower_damage":280,
+        "hero_healing":0,
+        "gold":2933,
+        "gold_spent":3865,
+        "scaled_hero_damage":3754,
+        "scaled_tower_damage":263,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5289,
+        "time":222,
+        "level":1
+        },
+        {
+        "ability":5290,
+        "time":278,
+        "level":2
+        },
+        {
+        "ability":5291,
+        "time":323,
+        "level":3
+        },
+        {
+        "ability":5290,
+        "time":415,
+        "level":4
+        },
+        {
+        "ability":5292,
+        "time":461,
+        "level":5
+        },
+        {
+        "ability":5290,
+        "time":576,
+        "level":6
+        },
+        {
+        "ability":5291,
+        "time":639,
+        "level":7
+        },
+        {
+        "ability":6200,
+        "time":654,
+        "level":8
+        },
+        {
+        "ability":5289,
+        "time":656,
+        "level":9
+        },
+        {
+        "ability":5289,
+        "time":693,
+        "level":10
+        }
+        ]
+    
+        },
+        {
+        "account_id":271149080,
+        "player_slot":130,
+        "hero_id":46,
+        "item_0":50,
+        "item_1":1,
+        "item_2":168,
+        "item_3":75,
+        "item_4":14,
+        "item_5":41,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":2,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":57,
+        "denies":16,
+        "gold_per_min":934,
+        "xp_per_min":1091,
+        "level":14,
+        "hero_damage":5631,
+        "tower_damage":1108,
+        "hero_healing":0,
+        "gold":454,
+        "gold_spent":9120,
+        "scaled_hero_damage":4931,
+        "scaled_tower_damage":935,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5196,
+        "time":137,
+        "level":1
+        },
+        {
+        "ability":5194,
+        "time":208,
+        "level":2
+        },
+        {
+        "ability":5196,
+        "time":227,
+        "level":3
+        },
+        {
+        "ability":5194,
+        "time":256,
+        "level":4
+        },
+        {
+        "ability":5196,
+        "time":286,
+        "level":5
+        },
+        {
+        "ability":5197,
+        "time":342,
+        "level":6
+        },
+        {
+        "ability":5196,
+        "time":387,
+        "level":7
+        },
+        {
+        "ability":5194,
+        "time":436,
+        "level":8
+        },
+        {
+        "ability":5194,
+        "time":471,
+        "level":9
+        },
+        {
+        "ability":5195,
+        "time":512,
+        "level":10
+        },
+        {
+        "ability":6016,
+        "time":557,
+        "level":11
+        },
+        {
+        "ability":5197,
+        "time":582,
+        "level":12
+        },
+        {
+        "ability":5195,
+        "time":634,
+        "level":13
+        },
+        {
+        "ability":5195,
+        "time":692,
+        "level":14
+        }
+        ]
+    
+        },
+        {
+        "account_id":179699753,
+        "player_slot":131,
+        "hero_id":28,
+        "item_0":63,
+        "item_1":65,
+        "item_2":39,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":2,
+        "deaths":0,
+        "assists":4,
+        "leaver_status":0,
+        "last_hits":17,
+        "denies":4,
+        "gold_per_min":630,
+        "xp_per_min":689,
+        "level":11,
+        "hero_damage":2963,
+        "tower_damage":214,
+        "hero_healing":0,
+        "gold":1894,
+        "gold_spent":4970,
+        "scaled_hero_damage":3657,
+        "scaled_tower_damage":176,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5114,
+        "time":117,
+        "level":1
+        },
+        {
+        "ability":5116,
+        "time":225,
+        "level":2
+        },
+        {
+        "ability":5115,
+        "time":276,
+        "level":3
+        },
+        {
+        "ability":5116,
+        "time":314,
+        "level":4
+        },
+        {
+        "ability":5116,
+        "time":385,
+        "level":5
+        },
+        {
+        "ability":5117,
+        "time":442,
+        "level":6
+        },
+        {
+        "ability":5116,
+        "time":500,
+        "level":7
+        },
+        {
+        "ability":5114,
+        "time":578,
+        "level":8
+        },
+        {
+        "ability":5114,
+        "time":613,
+        "level":9
+        },
+        {
+        "ability":5911,
+        "time":708,
+        "level":10
+        }
+        ]
+    
+        },
+        {
+        "account_id":285848166,
+        "player_slot":132,
+        "hero_id":86,
+        "item_0":77,
+        "item_1":37,
+        "item_2":180,
+        "item_3":216,
+        "item_4":77,
+        "item_5":1,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":5,
+        "deaths":0,
+        "assists":1,
+        "leaver_status":0,
+        "last_hits":25,
+        "denies":2,
+        "gold_per_min":784,
+        "xp_per_min":994,
+        "level":13,
+        "hero_damage":7013,
+        "tower_damage":126,
+        "hero_healing":0,
+        "gold":781,
+        "gold_spent":7530,
+        "scaled_hero_damage":6164,
+        "scaled_tower_damage":116,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5450,
+        "time":131,
+        "level":1
+        },
+        {
+        "ability":5448,
+        "time":221,
+        "level":2
+        },
+        {
+        "ability":5450,
+        "time":275,
+        "level":3
+        },
+        {
+        "ability":7320,
+        "time":360,
+        "level":4
+        },
+        {
+        "ability":5450,
+        "time":403,
+        "level":5
+        },
+        {
+        "ability":5452,
+        "time":417,
+        "level":6
+        },
+        {
+        "ability":5450,
+        "time":446,
+        "level":7
+        },
+        {
+        "ability":7320,
+        "time":494,
+        "level":8
+        },
+        {
+        "ability":7320,
+        "time":501,
+        "level":9
+        },
+        {
+        "ability":6366,
+        "time":579,
+        "level":10
+        },
+        {
+        "ability":5448,
+        "time":610,
+        "level":11
+        },
+        {
+        "ability":7320,
+        "time":640,
+        "level":12
+        },
+        {
+        "ability":5448,
+        "time":652,
+        "level":13
+        }
+        ]
+    
+        }
+        ]
+        ,
+        "radiant_win":false,
+        "duration":548,
+        "pre_game_duration":60,
+        "start_time":1567516678,
+        "match_id":5003974284,
+        "match_seq_num":4197153179,
+        "tower_status_radiant":1974,
+        "tower_status_dire":2047,
+        "barracks_status_radiant":63,
+        "barracks_status_dire":63,
+        "cluster":236,
+        "first_blood_time":77,
+        "lobby_type":0,
+        "human_players":10,
+        "leagueid":0,
+        "positive_votes":0,
+        "negative_votes":0,
+        "game_mode":23,
+        "flags":1,
+        "engine":1,
+        "radiant_score":1,
+        "dire_score":13,
+        "picks_bans":[
+        {
+        "is_pick":false,
+        "hero_id":37,
+        "team":0,
+        "order":0
+        },
+        {
+        "is_pick":false,
+        "hero_id":56,
+        "team":0,
+        "order":1
+        },
+        {
+        "is_pick":false,
+        "hero_id":75,
+        "team":0,
+        "order":2
+        },
+        {
+        "is_pick":false,
+        "hero_id":44,
+        "team":0,
+        "order":3
+        },
+        {
+        "is_pick":false,
+        "hero_id":57,
+        "team":0,
+        "order":4
+        }
+        ]
+    
+        }
+    },{
+        "result":{
+        "players":[
+        {
+        "account_id":4294967295,
+        "player_slot":0,
+        "hero_id":2,
+        "item_0":125,
+        "item_1":21,
+        "item_2":50,
+        "item_3":27,
+        "item_4":28,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":3,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":48,
+        "denies":0,
+        "gold_per_min":978,
+        "xp_per_min":620,
+        "level":7,
+        "hero_damage":1978,
+        "tower_damage":270,
+        "hero_healing":0,
+        "gold":953,
+        "gold_spent":6305,
+        "scaled_hero_damage":3188,
+        "scaled_tower_damage":164,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5009,
+        "time":143,
+        "level":1
+        },
+        {
+        "ability":5008,
+        "time":298,
+        "level":2
+        },
+        {
+        "ability":5009,
+        "time":330,
+        "level":3
+        },
+        {
+        "ability":5007,
+        "time":360,
+        "level":4
+        },
+        {
+        "ability":5009,
+        "time":412,
+        "level":5
+        },
+        {
+        "ability":5010,
+        "time":445,
+        "level":6
+        },
+        {
+        "ability":5009,
+        "time":488,
+        "level":7
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":2,
+        "winner":true
+        }
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":1,
+        "hero_id":4,
+        "item_0":240,
+        "item_1":11,
+        "item_2":0,
+        "item_3":0,
+        "item_4":0,
+        "item_5":223,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":8,
+        "deaths":0,
+        "assists":2,
+        "leaver_status":0,
+        "last_hits":16,
+        "denies":0,
+        "gold_per_min":834,
+        "xp_per_min":220,
+        "level":4,
+        "hero_damage":1858,
+        "tower_damage":2854,
+        "hero_healing":0,
+        "gold":2255,
+        "gold_spent":3125,
+        "scaled_hero_damage":2882,
+        "scaled_tower_damage":1284,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5015,
+        "time":156,
+        "level":1
+        },
+        {
+        "ability":5017,
+        "time":275,
+        "level":2
+        },
+        {
+        "ability":5016,
+        "time":350,
+        "level":3
+        },
+        {
+        "ability":5015,
+        "time":477,
+        "level":4
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":2,
+        "winner":true
+        }
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":2,
+        "hero_id":15,
+        "item_0":63,
+        "item_1":0,
+        "item_2":0,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":2,
+        "deaths":0,
+        "assists":7,
+        "leaver_status":0,
+        "last_hits":12,
+        "denies":0,
+        "gold_per_min":694,
+        "xp_per_min":221,
+        "level":4,
+        "hero_damage":1443,
+        "tower_damage":951,
+        "hero_healing":0,
+        "gold":3076,
+        "gold_spent":1500,
+        "scaled_hero_damage":2072,
+        "scaled_tower_damage":430,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5084,
+        "time":155,
+        "level":1
+        },
+        {
+        "ability":5083,
+        "time":274,
+        "level":2
+        },
+        {
+        "ability":5084,
+        "time":380,
+        "level":3
+        },
+        {
+        "ability":5082,
+        "time":503,
+        "level":4
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":2,
+        "winner":true
+        }
+        },
+        {
+        "account_id":233069061,
+        "player_slot":3,
+        "hero_id":77,
+        "item_0":81,
+        "item_1":94,
+        "item_2":0,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":1,
+        "deaths":0,
+        "assists":8,
+        "leaver_status":0,
+        "last_hits":7,
+        "denies":0,
+        "gold_per_min":583,
+        "xp_per_min":260,
+        "level":4,
+        "hero_damage":1956,
+        "tower_damage":2643,
+        "hero_healing":0,
+        "gold":1423,
+        "gold_spent":2520,
+        "scaled_hero_damage":2973,
+        "scaled_tower_damage":1448,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5396,
+        "time":256,
+        "level":1
+        },
+        {
+        "ability":5395,
+        "time":275,
+        "level":2
+        },
+        {
+        "ability":5396,
+        "time":351,
+        "level":3
+        },
+        {
+        "ability":5395,
+        "time":476,
+        "level":4
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":2,
+        "winner":true
+        }
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":4,
+        "hero_id":80,
+        "item_0":28,
+        "item_1":216,
+        "item_2":0,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":4,
+        "denies":2,
+        "gold_per_min":437,
+        "xp_per_min":227,
+        "level":4,
+        "hero_damage":435,
+        "tower_damage":170,
+        "hero_healing":0,
+        "gold":2662,
+        "gold_spent":445,
+        "scaled_hero_damage":415,
+        "scaled_tower_damage":62,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5412,
+        "time":154,
+        "level":1
+        },
+        {
+        "ability":5414,
+        "time":310,
+        "level":2
+        },
+        {
+        "ability":7309,
+        "time":337,
+        "level":3
+        },
+        {
+        "ability":5412,
+        "time":377,
+        "level":4
+        }
+        ]
+        ,
+        "additional_units":[
+        {
+        "unitname":"spirit_bear",
+        "item_0":0,
+        "item_1":0,
+        "item_2":0,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":2,
+        "winner":true
+        }
+        },
+        {
+        "account_id":4294967295,
+        "player_slot":128,
+        "hero_id":114,
+        "item_0":44,
+        "item_1":216,
+        "item_2":181,
+        "item_3":39,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":8,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":2,
+        "denies":0,
+        "gold_per_min":132,
+        "xp_per_min":248,
+        "level":4,
+        "hero_damage":530,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":407,
+        "gold_spent":865,
+        "scaled_hero_damage":498,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5723,
+        "time":153,
+        "level":1
+        },
+        {
+        "ability":5716,
+        "time":400,
+        "level":2
+        },
+        {
+        "ability":5721,
+        "time":533,
+        "level":3
+        },
+        {
+        "ability":5723,
+        "time":551,
+        "level":4
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":3,
+        "winner":false
+        }
+        },
+        {
+        "account_id":367869645,
+        "player_slot":129,
+        "hero_id":52,
+        "item_0":77,
+        "item_1":77,
+        "item_2":15,
+        "item_3":38,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":2,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":6,
+        "denies":2,
+        "gold_per_min":182,
+        "xp_per_min":349,
+        "level":5,
+        "hero_damage":91,
+        "tower_damage":3268,
+        "hero_healing":0,
+        "gold":300,
+        "gold_spent":1315,
+        "scaled_hero_damage":111,
+        "scaled_tower_damage":1636,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5242,
+        "time":162,
+        "level":1
+        },
+        {
+        "ability":5241,
+        "time":305,
+        "level":2
+        },
+        {
+        "ability":5242,
+        "time":380,
+        "level":3
+        },
+        {
+        "ability":5241,
+        "time":422,
+        "level":4
+        },
+        {
+        "ability":5242,
+        "time":488,
+        "level":5
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":3,
+        "winner":false
+        }
+        },
+        {
+        "account_id":353763422,
+        "player_slot":130,
+        "hero_id":112,
+        "item_0":39,
+        "item_1":0,
+        "item_2":218,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":2,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":0,
+        "denies":0,
+        "gold_per_min":113,
+        "xp_per_min":58,
+        "level":2,
+        "hero_damage":0,
+        "tower_damage":84,
+        "hero_healing":796,
+        "gold":389,
+        "gold_spent":850,
+        "scaled_hero_damage":0,
+        "scaled_tower_damage":41,
+        "scaled_hero_healing":1005,
+        "ability_upgrades":[
+        {
+        "ability":5653,
+        "time":144,
+        "level":1
+        },
+        {
+        "ability":5651,
+        "time":562,
+        "level":2
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":3,
+        "winner":false
+        }
+        },
+        {
+        "account_id":332817340,
+        "player_slot":131,
+        "hero_id":98,
+        "item_0":182,
+        "item_1":216,
+        "item_2":244,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":0,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":9,
+        "denies":0,
+        "gold_per_min":218,
+        "xp_per_min":93,
+        "level":2,
+        "hero_damage":0,
+        "tower_damage":113,
+        "hero_healing":0,
+        "gold":949,
+        "gold_spent":900,
+        "scaled_hero_damage":0,
+        "scaled_tower_damage":69,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5526,
+        "time":140,
+        "level":1
+        },
+        {
+        "ability":5524,
+        "time":511,
+        "level":2
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":3,
+        "winner":false
+        }
+        },
+        {
+        "account_id":56608063,
+        "player_slot":132,
+        "hero_id":89,
+        "item_0":18,
+        "item_1":182,
+        "item_2":11,
+        "item_3":0,
+        "item_4":0,
+        "item_5":0,
+        "backpack_0":0,
+        "backpack_1":0,
+        "backpack_2":0,
+        "kills":0,
+        "deaths":3,
+        "assists":0,
+        "leaver_status":0,
+        "last_hits":10,
+        "denies":0,
+        "gold_per_min":191,
+        "xp_per_min":131,
+        "level":3,
+        "hero_damage":168,
+        "tower_damage":0,
+        "hero_healing":0,
+        "gold":748,
+        "gold_spent":900,
+        "scaled_hero_damage":171,
+        "scaled_tower_damage":0,
+        "scaled_hero_healing":0,
+        "ability_upgrades":[
+        {
+        "ability":5469,
+        "time":156,
+        "level":1
+        },
+        {
+        "ability":5467,
+        "time":442,
+        "level":2
+        },
+        {
+        "ability":5469,
+        "time":547,
+        "level":3
+        }
+        ]
+        ,
+        "custom_game":{
+        "team":3,
+        "winner":false
+        }
+        }
+        ]
+        ,
+        "radiant_win":true,
+        "duration":343,
+        "pre_game_duration":90,
+        "start_time":1567516618,
+        "match_id":5003972514,
+        "match_seq_num":4197149254,
+        "tower_status_radiant":1983,
+        "tower_status_dire":454,
+        "barracks_status_radiant":63,
+        "barracks_status_dire":51,
+        "cluster":241,
+        "first_blood_time":0,
+        "lobby_type":12,
+        "human_players":10,
+        "leagueid":0,
+        "positive_votes":0,
+        "negative_votes":0,
+        "game_mode":19,
+        "flags":1,
+        "engine":1,
+        "radiant_score":15,
+        "dire_score":0
+        }
+    }
+]
+}

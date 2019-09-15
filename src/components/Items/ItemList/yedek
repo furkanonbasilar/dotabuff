@@ -1,0 +1,64 @@
+import React, { Component } from 'react';
+import { OverlayTrigger,Button, Popover} from 'react-bootstrap';
+import { connect } from 'react-redux'
+import ReactTooltip from 'react-tooltip'
+
+
+class ListItems extends Component {
+    constructor(props){
+        super(props);
+    }
+
+    _renderItem = () => {
+      const popoverHover = (
+        <Popover>
+          <Popover.Title><h2 style={{textTransform: 'uppercase'}}>{this.props.name}</h2></Popover.Title>
+          <Popover.Content>
+            <p>{this.props.information}</p>
+          </Popover.Content>
+        </Popover>
+      );
+      
+      let arrItem = [];
+
+      this.props.items.map(item => {
+        const url = `https://steamcdn-a.akamaihd.net/apps/dota2/images/items/${item.image}.png`;
+
+        arrItem.push(
+          <OverlayTrigger  delay={{ show: 0, hide: 0}} key={item.id} placement="right-start" overlay={popoverHover}  >
+            <img width='70px' height='53px' src={url} alt={item.name} 
+            onMouseMove={() => this.props.setPopover(item.information,item.name)}/>
+          </OverlayTrigger>
+        )
+      })
+
+      return arrItem;
+    }
+
+    render() {
+
+      return (
+          <div className='col-md-1 pt-5'>
+              {this._renderItem()}
+              {console.log(this.props.information)}
+              <a data-tip data-for='happyFace'> d(`･∀･)b </a>
+            <ReactTooltip id='happyFace' type='error'>
+              <span>Show happy face</span>
+            </ReactTooltip>
+          </div>
+      )
+    }
+}
+const mapStateToProps = (state) => {
+  return {
+    information: state.information,
+    name: state.name
+  }
+}
+const mapDispatchToProps = (dispatch) => {
+  return{
+  setPopover: (information,name) => dispatch({type:'SET_POPOVER',information: information,name: name })
+  }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(ListItems);
