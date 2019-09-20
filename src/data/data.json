@@ -97,7 +97,8 @@
         "cooldown": 80,
         "job": "consumable",
         "mana": 75,
-        "image": "tpscroll_lg"
+        "image": "tpscroll_lg",
+        "gold": 50
     },
     {
         "id": 1,
@@ -107,7 +108,8 @@
         "cooldown": 0,
         "job": "consumable",
         "mana": 0,
-        "image": "clarity_lg"
+        "image": "clarity_lg",
+        "gold": 50
     },
     {
         "id": 2,
@@ -117,7 +119,8 @@
         "cooldown": 5,
         "job": "consumable",
         "mana": 0,
-        "image": "faerie_fire_lg"
+        "image": "faerie_fire_lg",
+        "gold": 70
     },
     {
         "id": 3,
@@ -127,7 +130,8 @@
         "cooldown": 1,
         "job": "consumable",
         "mana": 0,
-        "image":"smoke_of_deceit_lg"
+        "image":"smoke_of_deceit_lg",
+        "gold" : 80
     },
     {
         "id": 4,
@@ -242,7 +246,6 @@
     {
         "id": 14,
         "name": "gauntlets of strength",
-        "information": "",
         "properties":["+3 Strength"],
         "cooldown": 0,
         "job": "attributes",
@@ -253,7 +256,6 @@
     {
         "id": 15,
         "name": "slippers of agility",
-        "information": "",
         "properties":["+3 Agility"],
         "cooldown": 0,
         "job": "attributes",
@@ -264,7 +266,6 @@
     {
         "id": 16,
         "name": "mantle of intelligence",
-        "information": "",
         "properties":["+3 Intelligence"],
         "cooldown": 0,
         "job": "attributes",
@@ -275,7 +276,6 @@
     {
         "id": 17,
         "name": "circlet",
-        "information": "",
         "properties":["+2 All Attributes"],
         "cooldown": 0,
         "job": "attributes",
@@ -286,7 +286,6 @@
     {
         "id": 18,
         "name": "belt of strength",
-        "information": "",
         "properties":["+6 Strength"],
         "cooldown": 0,
         "job": "attributes",
@@ -297,7 +296,6 @@
     {
         "id": 19,
         "name": "band of elvenskin",
-        "information": "",
         "properties":["+6 Agility"],
         "cooldown": 0,
         "job": "attributes",
@@ -308,7 +306,6 @@
     {
         "id": 20,
         "name": "robe of the magi",
-        "information": "",
         "properties":["+6 Intelligence"],
         "cooldown": 0,
         "job": "attributes",
@@ -319,7 +316,6 @@
     {
         "id": 21,
         "name": "crown",
-        "information": "",
         "properties":["4 All Attributes"],
         "cooldown": 0,
         "job": "attributes",
@@ -330,7 +326,6 @@
     {
         "id": 22,
         "name": "ogre axe",
-        "information": "",
         "properties":["+10 Strength"],
         "cooldown": 0,
         "job": "attributes",
@@ -341,7 +336,6 @@
     {
         "id": 23,
         "name": "blade of alacrity",
-        "information": "",
         "properties":["+10 Agility"],
         "cooldown": 0,
         "job": "attributes",
@@ -352,7 +346,6 @@
     {
         "id": 24,
         "name": "staff of wizardry",
-        "information": "",
         "properties":["+10 Intelligence"],
         "cooldown": 0,
         "job": "attributes",
@@ -363,7 +356,6 @@
     {
         "id": 25,
         "name": "ring of protection",
-        "information": "",
         "properties":["+2 armor"],
         "cooldown": 0,
         "job": "armanents",
@@ -401,7 +393,6 @@
     {
         "id": 28,
         "name": "infused raindrops",
-        "information": "",
         "passive":"Consumes a charge to block 120 magic damage from damage instances over 50 damage.Comes with 5 charges. When the charges are gone, the item disappears. ",
         "properties":["+0.75 Mana Regeneration"],
         "cooldown": 7,
@@ -414,7 +405,6 @@
     {
         "id": 29,
         "name": "orb of venom",
-        "information": "",
         "passive":"Poisons the target, dealing 5 magical damage per second and slowing movement by 12% if the equipped hero is melee, or 3 magical damage per second and slowing movement by 4% if they are ranged. Lasts for 3 seconds. ",
         "properties":[],
         "cooldown": 0,
@@ -427,7 +417,6 @@
     {
         "id": 30,
         "name": "blight stone",
-        "information": "",
         "passive": " LESSER CORRUPTION : Your attacks reduce the target's armor by 2 for 8 seconds." ,
         "properties":[],
         "cooldown": 0,
@@ -440,7 +429,6 @@
     {
         "id": 31,
         "name": "blades of attack",
-        "information": "",
         "passive": "" ,
         "properties":["+9 Damage"],
         "cooldown": 0,
@@ -452,7 +440,6 @@
     {
         "id": 32,
         "name": "chainmail",
-        "information": "",
         "passive": "" ,
         "properties":["+4 Armor"],
         "cooldown": 0,
@@ -464,7 +451,6 @@
     {
         "id": 33,
         "name": "quarterstaff",
-        "information": "",
         "passive": "" ,
         "properties":["+10 Damage","+10 Attack Speed"],
         "cooldown": 0,
@@ -476,7 +462,6 @@
     {
         "id": 34,
         "name": "helm of iron will",
-        "information": "",
         "passive": "" ,
         "properties":["+5 Armor","+3.5 HP Regeneration"],
         "cooldown": 0,
@@ -488,7 +473,6 @@
     {
         "id": 35,
         "name": "javelin",
-        "information": "",
         "passive": "Grants each attack a 25% chance to pierce through evasion and deal 100 bonus magical damage." ,
         "properties":[],
         "cooldown": 0,
@@ -500,7 +484,6 @@
     {
         "id": 36,
         "name": "broadsword",
-        "information": "",
         "passive": "" ,
         "properties":["+18 Damage"],
         "cooldown": 0,
@@ -512,7 +495,6 @@
     {
         "id": 37,
         "name": "claymore",
-        "information": "",
         "passive": "" ,
         "properties":["+21 Damage"],
         "cooldown": 0,
@@ -524,7 +506,6 @@
     {
         "id": 38,
         "name": "mithril hammer",
-        "information": "",
         "passive": "" ,
         "properties":["+24 Damage"],
         "cooldown": 0,
@@ -560,7 +541,6 @@
     {
         "id": 40,
         "name": "ring of regen",
-        "information": "",
         "passive": "" ,
         "properties":["+2 HP Regeneration"],
         "cooldown": 0,
@@ -572,7 +552,6 @@
     {
         "id": 41,
         "name": "sage's mask",
-        "information": "",
         "passive": "" ,
         "properties":["+0.75 Mana Regeneration"],
         "cooldown": 0,
@@ -596,7 +575,6 @@
     {
         "id": 43,
         "name": "gloves of haste",
-        "information": "",
         "passive": "" ,
         "properties":["+20 Attack Speed"],
         "cooldown": 0,
@@ -608,7 +586,6 @@
     {
         "id": 44,
         "name": "cloak",
-        "information": "",
         "passive": "Stacks multiplicatively with other sources of spell resistance" ,
         "properties":["15% Magic Resistance"],
         "cooldown": 0,
@@ -620,7 +597,6 @@
     {
         "id": 45,
         "name": "ring of tarrasque",
-        "information": "",
         "passive": "" ,
         "properties":["+150 Health","+3.75 HP Regeneration"],
         "cooldown": 0,
@@ -632,7 +608,6 @@
     {
         "id": 46,
         "name": "ring of health",
-        "information": "",
         "passive": "" ,
         "properties":["+6 HP Regeneration"],
         "cooldown": 0,
@@ -644,7 +619,6 @@
     {
         "id": 47,
         "name": "void stone",
-        "information": "",
         "passive": "" ,
         "properties":["+1.75 Mana Regeneration"],
         "cooldown": 0,
@@ -656,7 +630,6 @@
     {
         "id": 48,
         "name": "gem of true sight",
-        "information": "",
         "passive": "Grants the ability to see invisible units and wards to any allied vision within 900 range of its carrier. Dropped on death, and cannot be destroyed." ,
         "properties":[],
         "cooldown": 0,
@@ -668,7 +641,6 @@
     {
         "id": 49,
         "name": "morbid mask",
-        "information": "",
         "passive": "Lifesteal Heals the attacker for 15% of attack damage dealt. " ,
         "properties":[],
         "cooldown": 0,
@@ -707,7 +679,7 @@
         "passive": " " ,
         "properties":[],
         "cooldown": 15,
-        "job": "",
+        "job": "arcane",
         "mana": 0,
         "image": "blink_lg",
         "gold": 2250
@@ -721,12 +693,11 @@
         "cooldown": 0,
         "job": "common",
         "mana": 0,
+        "gold":450,
         "image": "magic_wand_lg"
     },{
         "id": 54,
         "name": "null talisman",
-        "information": "",
-        "passive": " " ,
         "properties":["+3 Strength","+3 Agility","+6 Intelligence","+Spell Amplification 3%"],
         "cooldown": 0,
         "job": "common",
@@ -738,8 +709,6 @@
     {
         "id": 55,
         "name": "wraith band",
-        "information": "",
-        "passive": " " ,
         "properties":["+3 Strength","+6 Agility","+3 Intelligence","+5 Attack Speed"],
         "cooldown": 0,
         "job": "common",
@@ -750,8 +719,6 @@
     },{
         "id": 56,
         "name": "bracer",
-        "information": "",
-        "passive": " " ,
         "properties":["+6 Stength","+3 Agility","+3 Intelligence","5% Magic Resistance"],
         "cooldown": 0,
         "job": "common",
@@ -764,7 +731,6 @@
         "id": 57,
         "name": "soul ring",
         "information": "Consume 170 health to temporarily gain 150 mana. Lasts 10 seconds.If the mana gained cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool. ",
-        "passive": "" ,
         "properties":["+6 Stength","+2.5 HP Regeneration"],
         "cooldown": 25,
         "job": "common",
@@ -776,7 +742,6 @@
         "id": 58,
         "name": "phase boots",
         "information": "Gives 22% increased movement speed on melee heroes, and 10% on ranged heroes, and lets you move through units and turn more quickly for 3 seconds.Movement speed bonuses from multiple pairs of boots do not stack. ",
-        "passive": " " ,
         "properties":["15% Movement Speed","+Damage(Melee) 18","+Damage(Range) 12","5 Armor"],
         "cooldown": 8,
         "job": "common",
@@ -784,6 +749,100 @@
         "image": "phase_boots_lg",
         "gold": 1480,
         "recipe": ["boots of speed","chainmail","blades of attack"]
+    },{
+        "id": 59,
+        "name": "power treads",
+        "information": "Switches between +10 Strength, +10 Agility, or +10 Intelligence.Movement speed bonuses from multiple pairs of boots do not stack",
+        "properties":["15% Movement Speed","+10 Selected Attribute","+20 Attack Speed"],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "power_treads_lg",
+        "gold": 1450,
+        "recipe": ["boots of speed","gloves of haste","belt of strength"]
+    },{
+        "id": 60,
+        "name": "oblivion staff",
+        "properties":["+10 Intelligence","+10 Attack Speed","+10 Damage","+1.25 Mana Regeneration"],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "oblivion_staff_lg",
+        "gold": 1650,
+        "recipe": ["quarterstaff","sage's mask,'robe of the magi"]
+    },{
+        "id": 61,
+        "name": "perseverance",
+        "properties":["+6 HP Regeneration","+2 Mana Regeneration"],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "pers_lg",
+        "gold": 1700,
+        "recipe": ["ring of health","void stone"]
+    },{
+        "id": 62,
+        "name": "hand of midas",
+        "information": "Kills a non-hero target for 160 gold and 1.85x experience.Cannot be used on Ancient Creeps.Range: 600 ",
+        "properties":["+ 40 Attack Speed "],
+        "cooldown": 90,
+        "job": "common",
+        "mana": 0,
+        "image": "hand_of_midas_lg",
+        "gold": 2250,
+        "recipe": ["recipe","gloves of haste"]
+    },{
+        "id": 63,
+        "name": "mask of madness",
+        "information": "Gives 110 attack speed and 30 movement speed, but reduces your armor by 8 and silences you. Lasts 8 seconds.",
+        "passive": "Heals the attacker for 20% of attack damage dealt. " ,
+        "properties":["+10 Damage","+10 Attack Speed"],
+        "cooldown": 22,
+        "job": "common",
+        "mana": 25,
+        "image": "mask_of_madness_lg",
+        "gold": 1775,
+        "recipe": ["morbid mask","quarterstaff"]
+    },{
+        "id": 64,
+        "name": "helm of the dominator",
+        "information": "Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500.Dominated units with a max health of greater than 1500 retain their original max health. Dominated unit's bounty is set to 200 gold.Range: 700",
+        "passive": "Increases nearby allies' attack speed by 20 and health regen by 8.5.Radius: 1200  " ,
+        "properties":["+2 All Attributes"],
+        "cooldown": 60,
+        "job": "common",
+        "mana": 0,
+        "image": "helm_of_the_dominator_lg",
+        "gold": 2175,
+        "recipe": ["recipe","gloves of haste","headdress","ring of health"]
+    },{
+        "id": 65,
+        "name": "boots of travel",
+        "information": "Teleports you to an allied non-hero unit or structure. Teleporting to a unit is interrupted if the target unit dies.Adds 10 seconds to the cooldown of Town Portal Scroll.Movement speed bonuses from multiple pairs of boots do not stack. ",
+        "properties":["32% Movement Speed"],
+        "cooldown": 45,
+        "job": "common",
+        "mana": 75,
+        "image": "travel_boots_lg",
+        "gold": 2500,
+        "recipe": ["recipe","boots of speed"]
+    },{
+        "id": 66,
+        "name": "moon shard",
+        "information": "Consume the Moon Shard to permanently gain 60 attack speed and 200 bonus night vision. Max 1 use.",
+        "passive": "Grants 400 bonus night vision. " ,
+        "properties":["+ 140 Attack Speed "],
+        "cooldown": 0,
+        "job": "common",
+        "mana": 0,
+        "image": "moon_shard_lg",
+        "gold": 4000,
+        "recipe": ["hyperstone","hyperstone"]
+    },{
+        "id": 67,
+        "name": "recipe",
+        "gold": 0,
+        "image": "recipe_lg"
     }
     ],
     "gameInfo" : [

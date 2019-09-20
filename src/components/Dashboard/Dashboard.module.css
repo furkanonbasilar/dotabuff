@@ -1,9 +1,21 @@
-.container {
+
+.border p{
+    font-family: 'Gayathri', sans-serif;
+    color: white;
     padding-top: 1rem;
 }
 
+.border {
+    max-width: 43%;
+    margin-top: 2.5rem;
+    border: 1px solid #242F39;
+    box-shadow: 0 0 1px rgba(10,10,10,0.4);
+    border-radius: 5px;
+    background: #242F39;
+}
 
-.p {
-    color: white;
-    padding-top: 1rem;
+.border img {
+    padding-top: 15px;
+    max-width: 100%;
+    min-width: 75%;
 }

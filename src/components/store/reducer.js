@@ -9,11 +9,15 @@ const initialState = {
         spellInfoR:"",
     },
     show: false,
-    information: "",
-    name:"",
-    passive:"",
-    properties:[],
-    gold: ''
+    itemDetails: {
+        information: "",
+        name:"",
+        passive:"",
+        properties:[],
+        gold: '',
+    },
+    navbarContent: [],
+    showNavbar: false
 }
 
 const reducer = (state = initialState, action) => {
@@ -36,11 +40,27 @@ const reducer = (state = initialState, action) => {
         case 'SET_POPOVER':
             return {
                 ...state,
-                information: action.information,
-                name: action.name,
-                passive: action.passive,
-                properties: [...action.properties],
-                gold: action.gold
+                itemDetails : {
+                    ...state.itemDetails,
+                    information: action.information,
+                    name: action.name,
+                    passive: action.passive,
+                    properties: [...action.properties],
+                    gold: action.gold
+                }
+                
+            }
+        case 'SET_HEROES_NAVBAR':
+            return {
+                ...state,
+                navbarContent: ['Main','Introduction','Statistics'],
+                showNavbar: true
+            }
+        case 'SET_ITEMS_NAVBAR':
+            return {
+                ...state,
+                navbarContent: ['Info','Trivia','Statistics','More'],
+                showNavbar: true
             }
         default:
             return state;

@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
+import { connect } from 'react-redux'
+import SecondToolbar from './SecondToolbar/SecondToolbar'
 
-export default class Toolbar extends Component {
+class Toolbar extends Component {
     render() {
         return (
-            <div className="container-fluid" style={{ backgroundColor:'#242F39', fontWeight: 600  }}>
+            <div className="container-fluid" style={{ backgroundColor:'#242F39', fontWeight: 600, paddingLeft: 0, paddingRight: 0,marginTop: 0}}>
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-dark">
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbar">
@@ -16,13 +18,13 @@ export default class Toolbar extends Component {
                                     <NavLink className="nav-link" to="/">MY DOTABUFF<span className="sr-only">(current)</span></NavLink>
                                 </li>
                                 <li className="nav-item" >
-                                    <NavLink to="/" className="nav-link" onMouseOver={this.props.enter}>Heroes</NavLink>
+                                    <NavLink  exact to="/main" className="nav-link" onMouseOver={() => this.props.setHeroesNavbar()}>Heroes</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to="/items" className="nav-link">Items</NavLink>
+                                    <NavLink to="/info" className="nav-link" onMouseOver={() => this.props.setItemsNavbar()}>Items</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to="/" className="nav-link">Players</NavLink>
+                                    <NavLink exact to="/players " className="nav-link">Players</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink to="/matches" className="nav-link">Matches</NavLink>
@@ -31,7 +33,22 @@ export default class Toolbar extends Component {
                         </div>
                     </nav>
                 </div>
+                {this.props.showNavbar ? <SecondToolbar /> : null}
             </div>
         )
     }
 }
+const mapStateToProps = (state) => {
+    return {
+       showNavbar: state.showNavbar
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        setHeroesNavbar: () => dispatch({type:'SET_HEROES_NAVBAR'}),
+        setItemsNavbar: () => dispatch({type:'SET_ITEMS_NAVBAR'})
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Toolbar);

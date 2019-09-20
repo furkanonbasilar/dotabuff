@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 const Footer = (props) => {
     return (
     <div>
-      <footer className="footer text-center position-sticky ">
+      <footer className="footer text-center position-relative">
         <div className="container d-flex justify-content-start" style={{paddingTop:'5rem'}}>
-          <ul className={classes.still} style={{listStyle:'none'}}>
+          <ul className={classes.still}>
             <NavLink >
               Copyright 2019 Furkan 
             </NavLink>
@@ -17,10 +17,10 @@ const Footer = (props) => {
             <NavLink >
               Support
             </NavLink>
-            <a href='https://github.com/furkanonbasilar?tab=repositories'>
+            <a href='https://github.com/furkanonbasilar?tab=repositories' target='_blank'>
               <i class="fab fa-github-square"></i>
             </a>
-            <a href='https://www.instagram.com/furkanonbasilar/'>
+            <a href='https://www.instagram.com/furkanonbasilar/' target='_blank'>
               <i class="fab fa-instagram"></i>
             </a>
           </ul>

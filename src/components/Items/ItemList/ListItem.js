@@ -10,10 +10,13 @@ class ListItems extends Component {
         <Popover>
           <Popover.Title ><h3 style={{textTransform: 'uppercase'}}>{this.props.name}</h3></Popover.Title>
           <Popover.Content style={{color:'white',backgroundColor:'#413C3A'}}>
-            <p>{this.props.information}</p>
+            {this.props.information ? <p>{this.props.information}</p> : null}
             {this.props.passive ? <p><strong>Passive: </strong>{this.props.passive}</p> : null}
-            {this.props.properties.length !== 0 ? <p><span style={{fontSize: '18px', color:'blue'}}>Attributes: </span>{this.props.properties}</p> : null}
-            <p style={{color:'yellow'}}>{this.props.gold}</p>
+            {this.props.properties.length !== 0 ? <p><span style={{fontSize: '18px', color:'#33CEFF'}}>Attributes: </span>{this.props.properties}</p> : null}
+            <img width='20px' height='10px' src='https://steamcdn-a.akamaihd.net/apps/dota2/images/tooltips/gold.png'/>
+            &nbsp;<p className="d-inline "style={{color:'yellow'}}>{this.props.gold}</p>
+  
+          
           </Popover.Content>
         </Popover>
       );
@@ -45,11 +48,11 @@ class ListItems extends Component {
 }
 const mapStateToProps = (state) => {
   return {
-    information: state.information,
-    name: state.name,
-    passive: state.passive,
-    properties: state.properties,
-    gold: state.gold
+    information: state.itemDetails.information,
+    name: state.itemDetails.name,
+    passive: state.itemDetails.passive,
+    properties: state.itemDetails.properties,
+    gold: state.itemDetails.gold
   }
 }
 const mapDispatchToProps = (dispatch) => {

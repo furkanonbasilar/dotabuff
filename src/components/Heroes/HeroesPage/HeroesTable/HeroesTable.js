@@ -4,7 +4,6 @@ import HeroCard from './HeroCard/HeroCard'
 // import ItemsCarousel from 'react-items-carousel';
 // import { Carousel } from 'react-responsive-carousel';
 // import AliceCarousel from 'react-alice-carousel';
-import "react-alice-carousel/lib/alice-carousel.css";
 
 
 class HeroesTable extends Component {
@@ -29,11 +28,7 @@ class HeroesTable extends Component {
                     <h3 style={{color: 'white',paddingLeft: '15px'}}>{this.props.mainAtt}</h3>
                 </div>
                 <div className="row">
-                    {
-                        this.results.map(hero => {
-                            return <HeroCard key={hero.id} data={hero}/>
-                        })
-                    }
+                    {this.results.map(hero => <HeroCard key={hero.id} data={hero}/>)}
                 </div>
             </div>
         )

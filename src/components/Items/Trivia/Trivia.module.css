@@ -1,0 +1,7 @@
+div.border {
+    margin-top: 5rem;
+    border: 1px solid #242F39;
+    box-shadow: 0 0 3px rgba(10,10,10,0.4);
+    border-radius: 5px;
+    background: #242F39;
+}

@@ -18,12 +18,12 @@ const IntroductionList = (props) => {
                 return (
                     <tbody>
                         <tr>
-                            <th style={{paddingTop:'2rem'}} scope="row">
+                            <th scope="row">
                                 <td> <img src={require('../../../../assets/' + heroes.name + '.png')} alt=""/> </td>
-                                <p className="" style={{textAlign:'center'}}> {heroes.name} </p>
+                                <p style={{textAlign:'center'}}> {heroes.name} </p>
                             </th>
                             <th scope="row">
-                                <td> {heroes.introduction} </td>
+                                <td style={{fontSize: '15px'}}> {heroes.introduction} </td>
                             </th>
                         </tr>
                     </tbody>

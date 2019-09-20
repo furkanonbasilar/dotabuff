@@ -7,7 +7,7 @@ export default class Items extends Component {
     constructor(props){
         super(props);
 
-        this.properties = ['consumable', 'attributes','armanents','arcane'];
+        this.properties = ['consumable', 'attributes','armanents','arcane','common'];
     }
 
     _renderLists = () => {
