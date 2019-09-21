@@ -7,7 +7,6 @@ import Dashboard from '../Dashboard/Dashboard';
 import Matches from '../Matches/Matches';
 import Items from '../Items/Items';
 import Footer from '../UI/Footer/Footer'
-import Trivia from '../Items/Trivia/Trivia'
 
 class App extends Component {
  
