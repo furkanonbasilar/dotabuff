@@ -25,7 +25,6 @@ class App extends Component {
             <Route path='/main' component={HeroesPage} />
             <Route path='/matches' component={Matches} />
             <Route path='/info' component={Items} />
-            <Route path='trivia' component={Trivia} />
           </Switch>
           <Footer />
         </div>
